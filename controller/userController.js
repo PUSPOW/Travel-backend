@@ -1,7 +1,7 @@
 /** @format */
 
 import User from "../models/User.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
 export const userLogin = async (req, res) => {
